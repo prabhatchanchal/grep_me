@@ -4,34 +4,43 @@
 
 The Grep Utility is a command-line tool that searches for a specified pattern in a given file. It provides various functionality options to customize the search behavior. This utility is implemented in C and supports both Windows and Linux platforms.
 
-## Functionality
+The Grep Utility provides the following functionality options:
+
+- **-c**: Prints only a count of the lines that match a pattern.
+- **-h**: Displays the matched lines, but does not display the filenames.
+- **-i**: Performs a case-insensitive search for the pattern.
+- **-l**: Displays a list of filenames only.
+- **-n**: Displays the matched lines along with their line numbers.
+- **-v**: Prints out all the lines that do not match the pattern.
+
+Each functionality option is implemented in a separate file:
 
 1. **grep**: Searches for a pattern in a file and displays matching lines.
 
-   - [Implementation code](src/grep.c)
+   - [code here](src/grep.c)
 
 2. **grep_count**: Prints the count of lines that match a pattern in a file.
 
-   - [Implementation code](src/grep_count.c)
+   - [code here](src/grep_count.c)
 
 3. **grep_display**: Displays the matched lines, excluding filenames.
 
-   - [Implementation code](src/grep_display.c)
+   - [code here](src/grep_display.c)
 
 4. **grep_ignore_case**: Performs a case-insensitive search for the pattern in a file.
 
-   - [Implementation code](src/grep_ignore_case.c)
+   - [code here](src/grep_ignore_case.c)
 
 5. **grep_list_filenames**: Displays a list of filenames that contain the pattern.
 
-   - [Implementation code](src/grep_list_filenames.c)
+   - [code here](src/grep_list_filenames.c)
 
 6. **grep_line_numbers**: Displays the matched lines along with their line numbers.
 
-   - [Implementation code](src/grep_line_numbers.c)
+   - [code here](src/grep_line_numbers.c)
 
 7. **grep_invert_match**: Prints all the lines that do not match the pattern.
-   - [Implementation code](src/grep_invert_match.c)
+   - [code here](src/grep_invert_match.c)
 
 ## How to Compile and Run
 

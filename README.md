@@ -17,7 +17,7 @@ Each functionality option is implemented in a separate file:
 
 1. **grep**: Searches for a pattern in a file and displays matching lines.
 
-   - [code here](src/grep.c)
+   - [code here](grep.c)
 
 2. **grep_count**: Prints the count of lines that match a pattern in a file.
 
